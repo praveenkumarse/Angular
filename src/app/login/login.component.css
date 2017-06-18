@@ -1,0 +1,10 @@
+.inner-div{
+    width: 400px;
+    margin: auto
+}
+.inner-div input{
+    margin-bottom: 25px;
+}
+.inner-div h3{
+    text-align: center
+}

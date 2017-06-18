@@ -1,0 +1,9 @@
+<div class="ui-g ui-fluid">
+    <div class="ui-g-12 inner-div" [formGroup]="loginForm">
+        <h3>Login Details</h3>
+        <input type="text" pInputText placeholder="User Name" formControlName="name"/>
+        <input type="password" pInputText placeholder="Password" formControlName="password"/>
+        <br>
+        <button pButton label="Submit" (click)="login()"></button>
+    </div>
+</div>
